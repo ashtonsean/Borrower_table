@@ -1,8 +1,7 @@
 CREATE TABLE borrowers_record (
-    std_id_number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     book_id INT NOT NULL,
     std_school_ID_number INT NOT NULL,
-    std_id INT NOT NULL,
+    std_id_number INT NOT NULL,
     staff_id INT NOT NULL,
     num_of_copies INT DEFAULT 1,
     release_date DATE NOT NULL,
